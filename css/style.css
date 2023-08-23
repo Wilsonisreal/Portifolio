@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    box-sizing: border-box;
+    color:#000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top left, rgb(36, 42, 134), rgb(46, 80, 112), rgb(111, 56, 116));
+}
+.habilidades_link{
+    display: flex;
+    background-color: #C5DFF8;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+.habilidades{
+    display: flex;
+    gap: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0% 0% 0% 15%;
+    text-align: left;
+    color: #000000;
+    border-radius: 10px;
+}
+.sobre_mim{
+    display: flex;
+    gap: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0% 0% 0% 15%;
+    text-align: left;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.sobre_mim_link{
+    display: flex;
+    background-color: #C5DFF8;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+.contato{
+    display: flex;
+    gap: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0% 0% 0% 15%;
+    text-align: left;
+    color: #000000;
+    border-radius: 10px;
+
+}
+
+.contato_link{
+    display: flex;
+    background-color: #C5DFF8;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+strong{
+    color:#000000;
+}
+
+.grau_de_instrucao{
+    background-color: #C5DFF8;
+    color: #000000;
+    font: size 1.5rem;;
+    border-radius: 10px;
+}
+
+p{
+    font-weight: #000000;
+}
+
+.nome{
+    margin: 3% 15%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.nome__dados{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nome__informacoes{
+    font-size: 1.25rem; 
+}
+
+.informacoes_pessoais{
+    color: #000000;
+}
+
+.nome__dados__pessoais{
+    font-size: 1.5rem;
+    background-color: #C5DFF8;
+    color: #000000;  
+    border-radius: 10px;   
+}
+
+.apresentacao__dos__links{
+    font-weight: 100px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: 37px;
+}
+
+#nome-autor::after{
+    content: "|";
+    animation: piscar 0.5s infinite;
+}
+
+@keyframes piscar {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+  
+h2{
+    color: #000000;
+    background-color: #C5DFF8;
+    font-size: 1.5rem;
+    border-radius: 10px;  
+}
+
+h3{
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+h4{
+    color: #000000;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+h5{
+    color: #000000;
+    background-color: #C5DFF8;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+h6{
+    color: #000000;
+    background-color: #C5DFF8;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.nome_do_link{
+    justify-content:center;
+    display: flex;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 1.06rem;
+    font-weight: 600;
+    padding: 10.5px 0;
+    text-decoration: none;
+    color: #000000;
+    border: 3px solid #F6F6F6F6;
+    margin-top: 10px;   
+}
+
+.nome_dos_links{
+    justify-content:center;
+    display: flex;
+    width: 10%;
+    border-radius: 10px;
+    font-size: 1.06rem;
+    font-weight: 600;
+    padding: 10.5px 0;
+    text-decoration: none;
+    color: #000000;
+    border: 3px solid #F6F6F6F6;
+    margin-top: 10px;
+}
+
+img{
+    margin-left: 20px;
+    margin-top: -5px;
+    border-radius: 5px;   
+}
+
+figure{
+   border-radius: 5px; 
+   padding: 0% 0% 0% 50%;
+}
+
+.nome_dos_links:hover{
+    background-color: #7fadd3;
+    color: #FFFFFF;
+
+}
+
+.nome_do_link:hover {
+    background-color: #7fadd3;
+    color: #FFFFFF;  
+}
+
+.sobre_mim_link:hover{
+    background-color: #7fadd3;
+    color: #FFFFFF;
+}
+
+.habilidades_link:hover{
+    background-color: #7fadd3;
+    color: #FFFFFF;
+}
+
+.contato_link:hover{
+    background-color: #7fadd3; 
+    color: #FFFFFF;
+}
+
+.botao:hover{
+    background-color: #7fadd3;
+    color: #FFFFFF;
+}
+
+.form{
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    height: 30px;
+    font-size: 1.06rem;
+    border-radius: 5px;
+    border: 3px solid #3a309bf6;
+    padding: 2px;
+}
+
+.form input:focus{
+    outline: 3px solid #12706bf6;
+}
+
+.form textarea{
+    font-size: 1.06rem;
+    border-radius: 5px;
+    border: 3px solid #3a309bf6;
+    padding: 8px;
+}
+
+.form textarea:focus{
+    outline: 3px solid #12706bf6;
+}
+
+label{
+    font-size: 20px;
+}
+
+.botao{
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.rodape{
+    padding: 17px;
+    color: #000000;
+    background-color: #7EAA92;
+    text-align: center;
+    font-size: 1.06rem;
+}
+
+@media (max-width: 100px) {
+    *{
+        padding: 10%;
+    }
+    .sobre_mim_link{
+        justify-content: center;
+    }
+    .nome {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .nome__dados{
+        width: auto;
+    }
+}
